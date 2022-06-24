@@ -1,0 +1,560 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.font-sans{
+    font-family: Montserrat, sans-serif;
+}
+.font-serif{
+    font-family: serif;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.liste{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+li a{
+    color: black;
+}
+.bouton{
+    color: white;
+    background-color: black;
+    margin-right: 5%;
+    padding: 1%;
+}
+.bloc_one{
+    position: relative;
+
+}
+.info{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+    top: 90px;
+    width: 35%;
+    height: 55vh;
+}
+.pool{
+    position: absolute;
+    left: 30%;
+    top: 90px;
+}
+.pool img{
+    width: 940px ;
+    height: 80vh;
+}
+.boutons{
+    color: white;
+    background-color: black;
+    padding: 3%;
+    top: 298px;
+    position: absolute;
+}
+.bloc_gris{
+    background-color: rgba(197, 197, 197, 0.61);
+    height: 15vh;
+    width: 40vw;
+    position: absolute;
+    top: 500px;
+    left: 405px;
+}
+.item{
+    position: absolute;
+    top: 520px;
+    left: 450px;
+}
+.items{
+    position: absolute;
+    top: 520px;
+    left: 620px;
+}
+.iteme{
+    position: absolute;
+    top: 520px;
+    left: 790px;
+}
+
+.detail{
+    position: absolute;
+    top: 520px;
+    left: 490px;
+}
+.details{
+    position: absolute;
+    top: 520px;
+    left: 660px;
+}
+.detaille{
+    position: absolute;
+    top: 520px;
+    left: 830px;
+}
+.too{
+    margin-top: 800px;
+    background-color: rgba(230, 230, 219, 0.801);
+    height: 150vh;
+}
+
+.idem{
+    margin-left: 50px;
+    display: flex;
+}
+.first{
+        margin-left: 20px;
+}
+.first h2{
+    font-size: 55px;
+    margin-left: 20px;
+}
+.first p{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.second{
+    position: relative;
+}
+.information{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 50%;
+    position: absolute;
+    top: -120px;
+
+}
+.second .information .circle{
+    width: 80px;
+    height: 80px;
+    border: solid 3px rgb(231 151 57);
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.second .information .button{
+    width: 130px;
+    height: 45px;
+    margin-left: 40px;
+    border: solid 2px;
+    position: relative;
+    margin-top: 65px;
+}
+.information .idem_bloc .xy-center {
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.second .information{
+    margin-top: -50px;
+    margin-left: 640px;
+}
+
+    
+
+.upper{
+    margin-left: 20px;
+}
+.idems{
+    position: relative;
+}
+.idems img{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.idemo img{
+    position: absolute;
+    left: 660px;
+    margin-top: -45px;
+    width: 618px;
+    height: 73vh;
+}
+
+ .button{
+    position: absolute;
+    background-color: black;
+    left: -20px;
+ }
+ .button .xy-center{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+ }
+ .chiffre{
+    background-color: rgba(197, 197, 197, 0.61);
+    width: 15vw;
+    height: 20vh;
+    position: absolute;
+    left: 50px;
+    top: 285px;
+
+ }
+ .chiffre h6{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+ .idems .chiffre .hupper{
+    position: absolute;
+    left: 110px;
+    top: 25px;
+ }
+ .idems .chiffre .upper{
+    position: absolute;
+    top: 70px;
+ }
+ .chiffres{
+    background-color: rgb(231 151 57);
+    width: 4px;
+    height: 20vh;
+    position: absolute;
+    left: 47px;
+    top: 285px;
+ }
+ .container{
+    margin-top: 150px;
+    position: relative;
+ }
+ .title_tree{
+    position: absolute;
+    left: 550px;
+    font-size: 40px;
+ }
+ .detailler{
+    position: absolute;
+    left: 450px;
+    top: 70px;
+    width: 390px;
+    font-size: 20px;
+    text-align: center;
+ }
+.boxs{
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 50px;
+    
+ }
+ .boxs{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+
+ }
+ .box{
+    text-align: center;
+    border: solid 1px;
+    padding: 0 80px;
+    height: 15vh;
+    width: 300px;
+    margin-left: 15px;
+
+ }
+ .icon-center{
+    margin-top: 20px;
+ }
+ .restaurant{
+    position: relative;
+ }
+ .left{
+     position: absolute;
+    top: 400px;
+    display: flex;
+ }
+ .left .picture{
+    margin-left: 150px;
+ }
+ .right{
+    margin-left: 30px;
+ }
+ .right .delail{
+    width: 70%;
+    margin-top: 10px;
+ }
+ .contents{
+    display: flex;
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+ }
+ .buttons{
+    height: 7vh;
+    width: 10vw;
+    margin-top: 55px;
+    border: solid 2px;
+    position: relative;
+ }
+ .x-center{
+    color: black;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+ }
+ .gradient{
+    width: 200px;
+    height: 110px;
+    transform: rotate(-30deg);
+    border-radius: 50px;
+    opacity: .45;
+    filter: blur(38px);
+    background: rgb(255,248,90);
+    background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+}
+.for{
+    margin-top: 65%;
+    position: relative;
+}
+.titrer{
+    position: absolute;
+    left: 30%;
+}
+.titre{
+    font-size: 45px;
+    line-height: 30px;
+    margin-left: -40px;
+}
+.parent{
+    display: flex;
+    margin-top: 2%;
+    margin-left: -40px;
+}
+.barres{
+    margin: 15px;
+    border: solid 1px;
+    width: 110px;
+    height: 35px;
+    margin-left: 1px;
+    text-align: center;
+    position: relative;
+}
+.barres .barre{
+    top: 10px;
+    left: 8px;
+    width: 100px;
+    position: absolute;
+}
+.grouper{
+    display: flex;
+    position: absolute;
+    margin-top: 10%;
+    width: 40vw;
+}
+.image{
+    margin-left: 13%;
+    margin: 1 auto;
+}
+.image p{
+    
+    margin-top: 20px;
+    
+}
+button{
+    margin-top: 15px;
+    background-color: white;
+    width: 80px;
+    height: 7vh;
+}
+
+/* --fin bloc tree--*/
+
+
+/*--debut bloc five--*/
+
+
+
+.five{
+    position: relative;
+    
+}
+.five_one{
+    position: absolute;
+    top: 850px;
+    left: 60px;
+
+}
+.five_tree {
+    margin-top: 990px;
+    left: 60px;
+    position: absolute;
+
+}
+.name_client{
+    margin-top: 20px;
+}
+.star_icon{
+    display: flex;
+    width: 70px;
+    position: absolute;
+    left: 250px;
+}
+.star{
+    width: 80px;
+}
+.clocks{
+    display: flex;
+    justify-content: space-between;
+}
+.carre{
+    width: 30px;
+    height: 20px;
+    border: solid 1px black;
+}
+.carra{
+    background-color: black;
+    width: 30px;
+    border: solid 1px;
+}
+.comparer{
+    display: flex;
+    margin-left: 250px;
+    position: relative;
+    align-items: center;
+}
+.signe{
+    width: 35px;
+    margin-top: 40%;
+
+}
+.signe .plus{
+    position: absolute;
+    top: 37px;
+    left: 10px;
+}
+.signe .plus_un{
+    position: absolute;
+    top: 37px;
+    left: 45px;
+}
+
+.photos{
+    display: flex;
+    position: relative;
+}
+.tof{
+    position: absolute;
+    top: 950px;
+    left: 450px;
+}
+.tofe{
+    position: absolute;
+    top: 910px;
+    left: 700px;
+}
+.tofer{
+    position: absolute;
+    top: 870px;
+    left: 930px;
+}
+.six_too{
+    position: relative;
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 100%;
+}
+.logos{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 60px
+}
+.twitte{
+    margin: 15px;
+    border: solid 1px white;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+.naviguer{
+    position: relative;
+}
+.navigation{
+    position: absolute;
+    top: -150px;
+    left: 40px;
+    display: flex;
+    
+}
+.navigue{
+    margin: 40px;
+    line-height: 30px;
+}
+.bloc_finish{
+    position: relative;
+}
+.finish{
+    position: absolute;
+    left: 750px;
+    top: -300px;
+    font-size: 30px;
+    width: 450px;
+}
+.finisher{
+    position: absolute;
+    left: 750px;
+    top: -180px;
+    width: 450px;
+    font-size: 20px;  
+}
+.finir{
+    position: relative;   
+}
+.finish_one{
+    position: absolute;
+    left: 800px;
+    top: -100px;
+    border: solid 1px;
+    width: 200px;
+    padding: 10px;
+    margin-left: -50px;
+    
+}
+.finish_one_too{
+    position: absolute;
+    left: 1050px;
+    top: -100px;
+    border: solid 1px;
+    width: 200px;
+    padding: 10px;
+    margin-left: -70px;
+}
+.finish_one_tree{
+    position: absolute;
+    left: 800px;
+    top: -40px;
+    border: solid 1px;
+    width: 200px;
+    padding: 10px;
+    margin-left: -50px;
+}
+.finish_one_for{
+    position: absolute;
+    left: 1000px;
+    top: -40px;
+    border: solid 1px black;
+    width: 200px;
+    padding: 10px;
+    margin-left: -20px;
+    color: white;
+    background-color: black;
+}
